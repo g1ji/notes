@@ -20,13 +20,21 @@
 To make your owen local shorthand with git 
 
 *git config --global alias.linegraph "log --oneline --graph"*
-### To show git logs graph (for all git)
+### To show git logs graph without info (for all git repose)
+###### use `git linegraph`
 
 *git config --global alias.longlinegraph "log --graph"*
-### To show git logs graph (for all git)
+### To show git logs graph with info (for all git repose)
+###### use `git longlinegraph`
 
 *git config alias.linegraph "log --oneline --graph"*
-### To show git logs graph
+### To show git logs graph without info (for current git repose)
+###### use `git linegraph`
 
 *git config alias.longlinegraph "log --graph"*
-### To show git logs graph
+### To show git logs graph with info (for current git repose)
+###### use `git longlinegraph`
+
+**Add remote origin  to local branch**
+----------
+git remote set-url origin https://github.com/g1ji/notes.git
